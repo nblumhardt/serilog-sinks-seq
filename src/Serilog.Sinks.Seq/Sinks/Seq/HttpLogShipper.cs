@@ -181,7 +181,7 @@ namespace Serilog.Sinks.Seq
                             continue;
 
                         var payload = new StringWriter();
-                        payload.Write("{\"events\":[");
+                        payload.Write("{\"Events\":[");
                         var delimStart = "";
 
                         using (var current = IOFile.Open(currentFile, FileMode.Open, FileAccess.Read, FileShare.ReadWrite))
