@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4ed18491-739a-467f-983e-3fdef13845c8" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/Serilog.Sinks.Seq/Sinks/Seq/Audit/SeqAuditSink.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Serilog.Sinks.Seq/Sinks/Seq/Audit/SeqAuditSink.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Serilog.Sinks.Seq/Sinks/Seq/Durable/HttpLogShipper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Serilog.Sinks.Seq/Sinks/Seq/Durable/HttpLogShipper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Serilog.Sinks.Seq/Sinks/Seq/SeqApi.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Serilog.Sinks.Seq/Sinks/Seq/SeqApi.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Serilog.Sinks.Seq/Sinks/Seq/SeqSink.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Serilog.Sinks.Seq/Sinks/Seq/SeqSink.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Serilog.Sinks.Seq.Tests/Serilog.Sinks.Seq.Tests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/test/Serilog.Sinks.Seq.Tests/Serilog.Sinks.Seq.Tests.csproj" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="SeqApi.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Serilog.Sinks.Seq/Sinks/Seq/SeqApi.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="58" column="40" selection-start-line="58" selection-start-column="40" selection-end-line="58" selection-end-column="40" />
+              <folding>
+                <marker date="1530500634140" expanded="true" signature="0:617" ph="/* Serilog.Sinks.Seq Copyright 2016 Serilog Contributors ... */" />
+                <marker date="1530500634140" expanded="false" signature="625:654" ph="..." />
+                <marker date="1530500634140" expanded="true" signature="683:2602" ph="{...}" />
+                <marker date="1530500634140" expanded="true" signature="702:2600" ph="{...}" />
+                <marker date="1530500634140" expanded="true" signature="1013:1266" ph="/* Why not use a JSON parser here? For a very small case, it's not ... */" />
+                <marker date="1530500634140" expanded="true" signature="1416:2356" ph="{...}" />
+                <marker date="1530500634140" expanded="true" signature="1495:1665" ph="/* Seq 1.5 servers will return JSON including &quot;MinimumLevelAccepted&quot;:x, where ... */" />
+                <marker date="1530500634140" expanded="true" signature="2428:2594" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SeqAuditSink.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Serilog.Sinks.Seq/Sinks/Seq/Audit/SeqAuditSink.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="45" column="82" selection-start-line="45" selection-start-column="82" selection-end-line="45" selection-end-column="82" />
+              <folding>
+                <marker date="1530500845465" expanded="true" signature="0:617" ph="/* Serilog.Sinks.Seq Copyright 2016 Serilog Contributors ... */" />
+                <marker date="1530500845465" expanded="false" signature="625:853" ph="..." />
+                <marker date="1530500845465" expanded="true" signature="888:3576" ph="{...}" />
+                <marker date="1530500845465" expanded="true" signature="949:3574" ph="{...}" />
+                <marker date="1530500845465" expanded="true" signature="1330:1703" ph="{...}" />
+                <marker date="1530500845465" expanded="true" signature="1734:1789" ph="{...}" />
+                <marker date="1530500845465" expanded="true" signature="1834:1894" ph="{...}" />
+                <marker date="1530500845465" expanded="true" signature="1943:2960" ph="{...}" />
+                <marker date="1530500845465" expanded="true" signature="2122:2283" ph="{...}" />
+                <marker date="1530500845465" expanded="true" signature="2300:2450" ph="{...}" />
+                <marker date="1530500845465" expanded="true" signature="3032:3255" ph="{...}" />
+                <marker date="1530500845465" expanded="true" signature="3323:3568" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HttpLogShipper.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Serilog.Sinks.Seq/Sinks/Seq/Durable/HttpLogShipper.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="203">
+              <caret line="81" column="81" selection-start-line="81" selection-start-column="81" selection-end-line="81" selection-end-column="81" />
+              <folding>
+                <marker date="1530500845501" expanded="true" signature="0:613" ph="/* Serilog.Sinks.Seq Copyright 2017 Serilog Contributors ... */" />
+                <marker date="1530500845501" expanded="true" signature="7400:7589" ph="/* For whatever reason, there's nothing waiting to send. This means we should try connecting again at the ... */" />
+                <marker date="1530500845501" expanded="true" signature="7682:7824" ph="/* Only advance the bookmark if no other process has the ... */" />
+                <marker date="1530500845501" expanded="true" signature="8250:8367" ph="/* By this point, we expect writers to have relinquished locks ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SeqSink.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Serilog.Sinks.Seq/Sinks/Seq/SeqSink.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="65" column="9" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
+              <folding>
+                <marker date="1530500845505" expanded="true" signature="0:617" ph="/* Serilog.Sinks.Seq Copyright 2016 Serilog Contributors ... */" />
+                <marker date="1530500845505" expanded="false" signature="625:944" ph="..." />
+                <marker date="1530500845505" expanded="true" signature="973:7425" ph="{...}" />
+                <marker date="1530500845505" expanded="true" signature="1016:7423" ph="{...}" />
+                <marker date="1530500845505" expanded="true" signature="2123:2631" ph="{...}" />
+                <marker date="1530500845505" expanded="true" signature="2688:2812" ph="{...}" />
+                <marker date="1530500845505" expanded="true" signature="2822:2989" ph="/* The sink must emit at least one event on startup, and the server be ... */" />
+                <marker date="1530500845505" expanded="true" signature="3047:3271" ph="{...}" />
+                <marker date="1530500845505" expanded="true" signature="3165:3261" ph="{...}" />
+                <marker date="1530500845505" expanded="true" signature="3355:4564" ph="{...}" />
+                <marker date="1530500845505" expanded="true" signature="3539:3720" ph="{...}" />
+                <marker date="1530500845505" expanded="true" signature="3737:3907" ph="{...}" />
+                <marker date="1530500845505" expanded="true" signature="4674:5408" ph="{...}" />
+                <marker date="1530500845505" expanded="true" signature="4776:5358" ph="{...}" />
+                <marker date="1530500845505" expanded="true" signature="4860:4988" ph="{...}" />
+                <marker date="1530500845505" expanded="true" signature="5025:5149" ph="{...}" />
+                <marker date="1530500845505" expanded="true" signature="5263:5344" ph="{...}" />
+                <marker date="1530500845505" expanded="true" signature="5514:6417" ph="{...}" />
+                <marker date="1530500845505" expanded="true" signature="5693:6334" ph="{...}" />
+                <marker date="1530500845505" expanded="true" signature="5777:5883" ph="{...}" />
+                <marker date="1530500845505" expanded="true" signature="5920:6044" ph="{...}" />
+                <marker date="1530500845505" expanded="true" signature="6158:6320" ph="{...}" />
+                <marker date="1530500845505" expanded="true" signature="6475:6549" ph="{...}" />
+                <marker date="1530500845505" expanded="true" signature="6629:7079" ph="{...}" />
+                <marker date="1530500845505" expanded="true" signature="6765:7043" ph="{...}" />
+                <marker date="1530500845505" expanded="true" signature="7156:7417" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SeqApiTests.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/Serilog.Sinks.Seq.Tests/SeqApiTests.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="403">
+              <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+              <folding>
+                <marker date="1530500922072" expanded="true" signature="47:319" ph="{...}" />
+                <marker date="1530500922072" expanded="true" signature="78:317" ph="{...}" />
+                <marker date="1530500922072" expanded="true" signature="151:311" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/test/Serilog.Sinks.Seq.Tests/SeqApiTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Serilog.Sinks.Seq/Sinks/Seq/Durable/HttpLogShipper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Serilog.Sinks.Seq/Sinks/Seq/Audit/SeqAuditSink.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Serilog.Sinks.Seq/Sinks/Seq/SeqApi.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Serilog.Sinks.Seq/Sinks/Seq/SeqSink.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Serilog.Sinks.Seq/Sinks/Seq/SeqApi.cs" />
+        <option value="$PROJECT_DIR$/src/Serilog.Sinks.Seq/Sinks/Seq/Audit/SeqAuditSink.cs" />
+        <option value="$PROJECT_DIR$/src/Serilog.Sinks.Seq/Sinks/Seq/Durable/HttpLogShipper.cs" />
+        <option value="$PROJECT_DIR$/src/Serilog.Sinks.Seq/Sinks/Seq/SeqSink.cs" />
+        <option value="$PROJECT_DIR$/test/Serilog.Sinks.Seq.Tests/SeqApiTests.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="98" />
+    <option name="y" value="50" />
+    <option name="width" value="2462" />
+    <option name="height" value="1390" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="serilog-sinks-seq (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="serilog-sinks-seq (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="src" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="serilog-sinks-seq (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="src" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Serilog.Sinks.Seq" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="serilog-sinks-seq (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="src" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Serilog.Sinks.Seq" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Sinks" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="serilog-sinks-seq (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="src" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Serilog.Sinks.Seq" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Sinks" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Seq" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="serilog-sinks-seq (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="test" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="serilog-sinks-seq (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="test" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Serilog.Sinks.Seq.Tests" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected=".NET Project.Default">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="None" />
+      <option name="PROJECT_TFM" value="" />
+    </configuration>
+    <list>
+      <item itemvalue=".NET Project.Default" />
+    </list>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4ed18491-739a-467f-983e-3fdef13845c8" name="Default" comment="" />
+      <created>1530500540303</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1530500540303</updated>
+      <workItem from="1530500541844" duration="614000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="614000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="98" y="50" width="2462" height="1390" extended-state="6" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Errors In Solution" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Unit Tests" weight="0.32942238" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32942238" />
+      <window_info anchor="bottom" id="NuGet" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25420168" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Build" weight="0.32942238" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.66064984" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/test/Serilog.Sinks.Seq.Tests/SeqApiTests.cs</url>
+          <line>10</line>
+          <properties documentPath="$PROJECT_DIR$/test/Serilog.Sinks.Seq.Tests/SeqApiTests.cs" initialLine="10">
+            <startOffsets>
+              <startOffset value="262" />
+            </startOffsets>
+            <endOffsets>
+              <endOffset value="301" />
+            </endOffsets>
+          </properties>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Serilog.Sinks.Seq/Sinks/Seq/Audit/SeqAuditSink.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="45" column="82" selection-start-line="45" selection-start-column="82" selection-end-line="45" selection-end-column="82" />
+          <folding>
+            <marker date="1530500845465" expanded="true" signature="0:617" ph="/* Serilog.Sinks.Seq Copyright 2016 Serilog Contributors ... */" />
+            <marker date="1530500845465" expanded="false" signature="625:853" ph="..." />
+            <marker date="1530500845465" expanded="true" signature="888:3576" ph="{...}" />
+            <marker date="1530500845465" expanded="true" signature="949:3574" ph="{...}" />
+            <marker date="1530500845465" expanded="true" signature="1330:1703" ph="{...}" />
+            <marker date="1530500845465" expanded="true" signature="1734:1789" ph="{...}" />
+            <marker date="1530500845465" expanded="true" signature="1834:1894" ph="{...}" />
+            <marker date="1530500845465" expanded="true" signature="1943:2960" ph="{...}" />
+            <marker date="1530500845465" expanded="true" signature="2122:2283" ph="{...}" />
+            <marker date="1530500845465" expanded="true" signature="2300:2450" ph="{...}" />
+            <marker date="1530500845465" expanded="true" signature="3032:3255" ph="{...}" />
+            <marker date="1530500845465" expanded="true" signature="3323:3568" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Serilog.Sinks.Seq/Sinks/Seq/Durable/HttpLogShipper.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="81" column="81" selection-start-line="81" selection-start-column="81" selection-end-line="81" selection-end-column="81" />
+          <folding>
+            <marker date="1530500845501" expanded="true" signature="0:613" ph="/* Serilog.Sinks.Seq Copyright 2017 Serilog Contributors ... */" />
+            <marker date="1530500845501" expanded="true" signature="7400:7589" ph="/* For whatever reason, there's nothing waiting to send. This means we should try connecting again at the ... */" />
+            <marker date="1530500845501" expanded="true" signature="7682:7824" ph="/* Only advance the bookmark if no other process has the ... */" />
+            <marker date="1530500845501" expanded="true" signature="8250:8367" ph="/* By this point, we expect writers to have relinquished locks ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Serilog.Sinks.Seq/Sinks/Seq/SeqApi.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="58" column="40" selection-start-line="58" selection-start-column="40" selection-end-line="58" selection-end-column="40" />
+          <folding>
+            <marker date="1530500634140" expanded="true" signature="0:617" ph="/* Serilog.Sinks.Seq Copyright 2016 Serilog Contributors ... */" />
+            <marker date="1530500634140" expanded="false" signature="625:654" ph="..." />
+            <marker date="1530500634140" expanded="true" signature="683:2602" ph="{...}" />
+            <marker date="1530500634140" expanded="true" signature="702:2600" ph="{...}" />
+            <marker date="1530500634140" expanded="true" signature="1013:1266" ph="/* Why not use a JSON parser here? For a very small case, it's not ... */" />
+            <marker date="1530500634140" expanded="true" signature="1416:2356" ph="{...}" />
+            <marker date="1530500634140" expanded="true" signature="1495:1665" ph="/* Seq 1.5 servers will return JSON including &quot;MinimumLevelAccepted&quot;:x, where ... */" />
+            <marker date="1530500634140" expanded="true" signature="2428:2594" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Serilog.Sinks.Seq/Sinks/Seq/SeqSink.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="65" column="9" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
+          <folding>
+            <marker date="1530500845505" expanded="true" signature="0:617" ph="/* Serilog.Sinks.Seq Copyright 2016 Serilog Contributors ... */" />
+            <marker date="1530500845505" expanded="false" signature="625:944" ph="..." />
+            <marker date="1530500845505" expanded="true" signature="973:7425" ph="{...}" />
+            <marker date="1530500845505" expanded="true" signature="1016:7423" ph="{...}" />
+            <marker date="1530500845505" expanded="true" signature="2123:2631" ph="{...}" />
+            <marker date="1530500845505" expanded="true" signature="2688:2812" ph="{...}" />
+            <marker date="1530500845505" expanded="true" signature="2822:2989" ph="/* The sink must emit at least one event on startup, and the server be ... */" />
+            <marker date="1530500845505" expanded="true" signature="3047:3271" ph="{...}" />
+            <marker date="1530500845505" expanded="true" signature="3165:3261" ph="{...}" />
+            <marker date="1530500845505" expanded="true" signature="3355:4564" ph="{...}" />
+            <marker date="1530500845505" expanded="true" signature="3539:3720" ph="{...}" />
+            <marker date="1530500845505" expanded="true" signature="3737:3907" ph="{...}" />
+            <marker date="1530500845505" expanded="true" signature="4674:5408" ph="{...}" />
+            <marker date="1530500845505" expanded="true" signature="4776:5358" ph="{...}" />
+            <marker date="1530500845505" expanded="true" signature="4860:4988" ph="{...}" />
+            <marker date="1530500845505" expanded="true" signature="5025:5149" ph="{...}" />
+            <marker date="1530500845505" expanded="true" signature="5263:5344" ph="{...}" />
+            <marker date="1530500845505" expanded="true" signature="5514:6417" ph="{...}" />
+            <marker date="1530500845505" expanded="true" signature="5693:6334" ph="{...}" />
+            <marker date="1530500845505" expanded="true" signature="5777:5883" ph="{...}" />
+            <marker date="1530500845505" expanded="true" signature="5920:6044" ph="{...}" />
+            <marker date="1530500845505" expanded="true" signature="6158:6320" ph="{...}" />
+            <marker date="1530500845505" expanded="true" signature="6475:6549" ph="{...}" />
+            <marker date="1530500845505" expanded="true" signature="6629:7079" ph="{...}" />
+            <marker date="1530500845505" expanded="true" signature="6765:7043" ph="{...}" />
+            <marker date="1530500845505" expanded="true" signature="7156:7417" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Serilog.Sinks.Seq.Tests/SeqApiTests.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding>
+            <marker date="1530500922072" expanded="true" signature="47:319" ph="{...}" />
+            <marker date="1530500922072" expanded="true" signature="78:317" ph="{...}" />
+            <marker date="1530500922072" expanded="true" signature="151:311" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

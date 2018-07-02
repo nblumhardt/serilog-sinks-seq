@@ -79,7 +79,7 @@ namespace Serilog.Sinks.Seq.Durable
             _retainedInvalidPayloadsLimitBytes = retainedInvalidPayloadsLimitBytes;
             _bufferSizeLimitBytes = bufferSizeLimitBytes;
             _httpClient = messageHandler != null ? new HttpClient(messageHandler) : new HttpClient();
-            _httpClient.BaseAddress = new Uri(SeqApi.NormalizeServerBaseAddress(serverUrl));
+            _httpClient.BaseAddress = SeqApi.NormalizeServerBaseAddress(serverUrl);
             _fileSet = new FileSet(bufferBaseFilename);
             _timer = new PortableTimer(c => OnTick());
 

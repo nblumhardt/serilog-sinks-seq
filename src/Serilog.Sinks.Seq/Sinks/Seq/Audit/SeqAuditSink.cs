@@ -43,7 +43,7 @@ namespace Serilog.Sinks.Seq.Audit
             _apiKey = apiKey;
             _useCompactFormat = useCompactFormat;
             _httpClient = messageHandler != null ? new HttpClient(messageHandler) : new HttpClient();
-            _httpClient.BaseAddress = new Uri(SeqApi.NormalizeServerBaseAddress(serverUrl));
+            _httpClient.BaseAddress = SeqApi.NormalizeServerBaseAddress(serverUrl);
         }
 
         public void Dispose()

@@ -63,7 +63,7 @@ namespace Serilog.Sinks.Seq
             _controlledSwitch = new ControlledLevelSwitch(levelControlSwitch);
             _useCompactFormat = useCompactFormat;
             _httpClient = messageHandler != null ? new HttpClient(messageHandler) : new HttpClient();
-            _httpClient.BaseAddress = new Uri(SeqApi.NormalizeServerBaseAddress(serverUrl));
+            _httpClient.BaseAddress = SeqApi.NormalizeServerBaseAddress(serverUrl);
         }
 
         protected override void Dispose(bool disposing)

@@ -56,12 +56,12 @@ namespace Serilog.Sinks.Seq
             return minimumLevel;
         }
 
-        public static string NormalizeServerBaseAddress(string serverUrl)
+        public static Uri NormalizeServerBaseAddress(string serverUrl)
         {
             var baseUri = serverUrl;
             if (!baseUri.EndsWith("/"))
                 baseUri += "/";
-            return baseUri;
+            return new Uri(baseUri);
         }
     }
 }
